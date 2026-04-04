@@ -96,7 +96,10 @@ body:
       label: 其他信息
       description: 有关问题的任何其他信息
 
-  - type: markdown
+  - type: textarea
+    id: logs
     attributes:
-      value: |
-        > **上传日志**
+      label: 上传日志
+      description: 上传有关的日志
+    validations:
+      required: true
