@@ -1,0 +1,103 @@
+name: 🐛 Bug Report
+description: Report a problem with EasyBot
+title: "[BUG] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > 请**务必**提供完整的问题描述和相关日志
+        > 已搜索过现有 Issues 避免重复
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: EasyBot 版本
+      description: 请选择您使用的版本
+      options:
+        - 2.0.0-dev.1
+        - 2.0.0-dev.2
+        - 2.0.0-dev.3
+        - 2.0.0-dev.4
+        - 2.0.0-dev.5
+        - 2.0.0-dev.6
+        - 2.0.0-dev.7
+        - 2.0.0-dev.8
+        - 2.0.0-dev.9
+        - 2.0.0-dev.10
+        - 2.0.0-dev.11
+        - 2.0.0-dev.12
+        - 2.0.0-dev.13
+        - 2.0.0-dev.14
+        - 2.0.0-dev.15
+        - 2.0.0-dev.16
+        - 2.0.0-dev.17
+        - 2.0.0-dev.18
+        - 2.0.0-dev.19
+        - 2.0.0-dev.20
+      validations:
+        required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Minecraft 核心
+      description: 请选择您使用的核心
+      options:
+        - fabric
+        - forge
+        - bukkit
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: EasyBot MOD版本
+      description: 请选择您使用的版本
+      options:
+        - 0.1.0-rc1
+        - 0.1.0-rc2
+        - 0.1.0-rc3
+        - 0.1.0-rc4
+        - 0.1.0-rc5
+        - 0.1.0-rc6
+        - 0.1.0-rc7
+        - 0.1.0
+        - 0.1.1-rc1
+        - 0.1.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 清晰简明地描述问题是什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 如何重现此问题
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他信息
+      description: 有关问题的任何其他信息
+
+  - type: markdown
+    attributes:
+      value: |
+        > **上传日志**
+
