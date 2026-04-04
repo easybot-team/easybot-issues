@@ -11,7 +11,7 @@ body:
         > 已搜索过现有 Issues 避免重复
 
   - type: dropdown
-    id: version
+    id: easybot_version
     attributes:
       label: EasyBot 版本
       description: 请选择您使用的版本
@@ -36,11 +36,11 @@ body:
         - 2.0.0-dev.18
         - 2.0.0-dev.19
         - 2.0.0-dev.20
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: dropdown
-    id: version
+    id: minecraft_core
     attributes:
       label: Minecraft 核心
       description: 请选择您使用的核心
@@ -52,7 +52,7 @@ body:
       required: true
 
   - type: dropdown
-    id: version
+    id: mod_version
     attributes:
       label: EasyBot MOD版本
       description: 请选择您使用的版本
@@ -100,4 +100,3 @@ body:
     attributes:
       value: |
         > **上传日志**
-
