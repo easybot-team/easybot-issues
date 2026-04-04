@@ -1,0 +1,39 @@
+name: 💡 Feature Request
+description: Suggest an idea for EasyBot
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > 详细描述您的想法和需求
+        > 说明此功能能解决什么问题
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 功能描述
+      description: 清晰描述您希望的功能
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解决的问题
+      description: 此功能解决什么具体问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案
+      description: 您考虑过的其他方案
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充说明
+      description: 其他相关信息
