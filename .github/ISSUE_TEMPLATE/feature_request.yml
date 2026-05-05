@@ -3,6 +3,20 @@ description: 为Easybot提出您的建议
 title: "[FEATURE] "
 labels: ["enhancement"]
 body:
+  - type: dropdown
+    id: core
+    attributes:
+      label: 选择核心
+      description: 请选择您提出建议的核心
+      options:
+        - fabric
+        - forge
+        - bukkit
+        - MCDR
+        - Velocity
+    validations:
+      required: true
+      
   - type: markdown
     attributes:
       value: |
