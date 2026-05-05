@@ -2,7 +2,14 @@ name: 💡 功能建议
 description: 为Easybot提出您的建议
 title: "[FEATURE] "
 labels: ["enhancement"]
-body:
+body:      
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > 详细描述您的想法和需求
+        > 说明此功能能解决什么问题
+        
   - type: dropdown
     id: core
     attributes:
@@ -17,13 +24,6 @@ body:
     validations:
       required: true
       
-  - type: markdown
-    attributes:
-      value: |
-        > [!NOTE]
-        > 详细描述您的想法和需求
-        > 说明此功能能解决什么问题
-
   - type: textarea
     id: description
     attributes:
