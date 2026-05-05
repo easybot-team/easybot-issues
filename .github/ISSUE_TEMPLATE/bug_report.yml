@@ -79,7 +79,7 @@ body:
     validations:
       required: true
       
-  - 输入: dropdown
+  - type: dropdown
     id: bukkit_version
     attributes:
       label: EasyBot BUKKIT版本
