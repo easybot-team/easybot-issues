@@ -13,14 +13,16 @@ body:
   - type: dropdown
     id: core
     attributes:
-      label: 选择核心
-      description: 请选择您提出建议的核心
+      label: 选择模块
+      description: 请选择您提出建议的模块
       options:
         - fabric
         - forge
         - bukkit
         - MCDR
         - Velocity
+        - 文档相关
+        - gihub相关
     validations:
       required: true
       
