@@ -42,6 +42,7 @@ body:
         - 2.0.0-dev.24
         - 2.0.0-dev.25
         - 2.0.0
+        - 2.0.1
     validations:
       required: true
 
@@ -96,6 +97,40 @@ body:
         - 2.1.4
         - 2.1.5
         - 2.2.0
+    validations:
+      required: true
+    - type: dropdown
+    
+    id: mcdr_version
+    attributes:
+      label: EasyBot MCDR版本
+      description: 请选择您使用的版本
+      options:
+        - 未使用
+        - 1.2.1
+        - 1.2.0-release.1
+        - 1.1.7-release.2
+        - 1.1.7-release.1
+        - 1.1.7
+        - 1.1.6
+        - 1.1.5
+        - 1.1.4
+        - 1.1.3-pre1
+        - 1.1.0
+    validations:
+      required: true
+      
+    id: velocity_version
+    attributes:
+      label: EasyBot Velocity版本
+      description: 请选择您使用的版本
+      options:
+        - 未使用
+        - 1.3.0
+        - 1.2.2
+        - 1.2.1-SNAPSHOT
+        - 1.2.0-SNAPSHOT
+        - 1.1
     validations:
       required: true
 
